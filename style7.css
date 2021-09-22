@@ -1,0 +1,199 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-bar{
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    color: #6882AC;
+    font-size: 13px;
+}
+.nav-all{
+    display: inline-block;
+    text-decoration: none;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-item a{
+    display: inline-block;
+    padding-left: 30px;
+    text-decoration: none;
+}
+.card-1{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border: 20px solid #F0F0F0;
+    margin: 10px;
+    margin-top: 0px;
+}
+.pic-descrip1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.fax-text{
+    color: #6882AC;
+    font-size: 15px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+.cr{
+    color: white;
+    background-color: #E69421;
+    border: 1px solid #E69421;
+    padding: 7px;
+    width: 4em;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 30px;
+}
+.num{
+    color: black;
+    background-color: white;
+    border: 1px solid #E69421;
+    padding: 7px;
+    width: 4em;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+.series{
+    width: 50%;
+}
+.eye-icon>.eye{
+    margin-top: 15px;
+    margin-bottom: 0;
+    align-items: right;
+}
+.car-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+.heading{
+    color: #B3B3B3;
+    text-transform: uppercase;
+}
+.credit{
+    color: #6882AC;
+}
+.bid{
+    text-align: center;
+}
+.clock{
+    color: #E69421;
+}
+.buy{
+    background-color: #2664CF;
+    color: white;
+    padding: 7px;
+    margin: 8px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.proxy{
+    color: #29435A;
+    margin-bottom: 15px;
+}
+.price{
+    width: 50px;
+    height: 60px;
+}
+.set-bid{
+    color: #6882AC;
+    border: 3px solid #6882AC;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 10px;
+    margin-left: 15px;
+}
+.announce{
+    color: #808080;
+    padding: 20px;
+    height: 200px;
+    border: 2px solid #F0F0F0;
+    overflow: scroll;
+    text-align: justify;
+}
+table{
+    width: 100%;
+    border: none;
+    empty-cells: show;
+}
+.table1{
+    margin: 10px;
+}
+
+th{
+    background-color: #003368;
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    
+}
+th:nth-child(1){
+    border-top-right-radius: 0px;
+    text-align: left;
+}
+th:nth-child(2){
+    border-top-left-radius: 0px;
+    text-align: right;
+}
+td{
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: #F8F8F8;
+  }
+tr:nth-child(odd){
+    background-color: white;
+  }
+.table-cells{
+    border: 3px solid #F0F0F0;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.card-2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F0F0F0;
+    border: 20px solid #F0F0F0;
+    margin: 0px;
+}
+.table2{
+    width: 100%;
+    border: none;
+}
+.table2>.table-cells{
+    border: none;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
